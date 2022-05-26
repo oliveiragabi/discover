@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html{
+  --black: #0D114F;
+  --white: #FAFAFA;
+  --red: #E83F58;
+  --light-blue: #3485FF;
+  --blue: #3485ff;
+  --blackground: #F6FAFF;
+  --overlay: #040911;
+  --icons-details: #A5B0C1;
+
+
+  --grey-dark: #4D5E77;
+  --grey-blue: #A1B2CD;
+  --grey-light: #E5EAF1;
+
+  /* rem substitui o pixel, é igual a 16px.  calcular pixel/16 */
+  /*16 px = 1rem = 100%*/
+  font-size: 1.75rem;
+
+}
