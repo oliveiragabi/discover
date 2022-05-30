@@ -20,6 +20,7 @@ html{
   --grey-dark: #4D5E77;
   --grey-blue: #A1B2CD;
   --grey-light: #E5EAF1;
+  --grey-mmedium: #EAECF2;
 
   /* rem substitui o pixel, é igual a 16px.  calcular pixel/16 */
   /*16 px = 1rem = 100%*/
@@ -27,6 +28,7 @@ html{
 }
 
 body{
+  display: flex;
   height: 100vh; /*pq nao tem rolagem*/
   background: var(--blackground);
 }
@@ -91,7 +93,7 @@ button > img, .button > img{
 button.outlined, .button.outlined{
   background: var(--white);
   color: var(--blue);
-  border: 0.2rem solide var(--blue);
+  border: 0.2rem solid var(--blue);
 }
 
 .content header{
